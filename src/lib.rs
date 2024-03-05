@@ -3,6 +3,7 @@ pub mod parser;
 /// Bookmark
 ///
 /// A bookmark is a link to a website with a name and a description
+#[derive(Debug, PartialEq, Clone)]
 pub struct Bookmark {
     pub name: String,
     pub description: String,
@@ -28,6 +29,7 @@ impl std::fmt::Display for Bookmark {
 /// Category Header
 ///
 /// A header is a name and an optional icon
+#[derive(Debug, PartialEq, Clone)]
 pub struct Header {
     pub name: String,
     pub icon: Option<String>,
@@ -54,6 +56,7 @@ impl std::fmt::Display for Header {
 /// Category
 ///
 /// A category is a header with a list of bookmarks
+#[derive(Debug, PartialEq, Clone)]
 pub struct Category {
     pub header: Header,
     pub bookmarks: Vec<Bookmark>,
@@ -83,6 +86,7 @@ impl std::fmt::Display for Category {
     }
 }
 
+#[derive(Debug, PartialEq, Clone)]
 pub struct Sbm(Vec<Category>);
 
 impl Sbm {
