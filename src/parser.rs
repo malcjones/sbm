@@ -141,7 +141,7 @@ mod tests {
 #Programming Languages
 Rust|The Rust Programming Language|https://www.rust-lang.org/
 Python|Python Programming Language|https://www.python.org/
-
+// This is a comment
 #Web Development|🌐
 HTML|Hypertext Markup Language|https://developer.mozilla.org/en-US/docs/Web/HTML
 CSS|Cascading Style Sheets|https://developer.mozilla.org/en-US/docs/Web/CSS
