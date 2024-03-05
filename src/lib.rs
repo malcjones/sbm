@@ -87,7 +87,7 @@ impl std::fmt::Display for Category {
 }
 
 #[derive(Debug, PartialEq, Clone)]
-pub struct Sbm(Vec<Category>);
+pub struct Sbm(pub Vec<Category>);
 
 impl Sbm {
     pub fn new(categories: Vec<Category>) -> Sbm {
