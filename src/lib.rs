@@ -93,6 +93,10 @@ impl Sbm {
     pub fn new(categories: Vec<Category>) -> Sbm {
         Sbm(categories)
     }
+
+    pub fn categories(&self) -> &Vec<Category> {
+        &self.0
+    }
 }
 
 impl std::fmt::Display for Sbm {
