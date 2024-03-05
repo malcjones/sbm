@@ -1,4 +1,5 @@
-# SBM - Simple Bookmark
+# SBM - Simple Bookmark ![Rust](https://github.com/malcjones/sbm/actions/workflows/rust.yml/badge.svg)
+
 This repository contains the rough living spec for the SBM file format, along with a reference implementation in Rust.
 This implementation is well-covered by tests, and is designed to be easy to use and extend. It implements a parser and an encoder for the SBM file format. The encoder is implemented as the `Display` trait, so it can be used with the `write!` and `format!` macros.
 
